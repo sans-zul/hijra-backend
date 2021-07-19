@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<%- include("synadmin/head") %>
+
+<body>
+	
+    <!--wrapper-->
+	<div class="wrapper">
+		<!--sidebar wrapper -->
+		<div class="sidebar-wrapper" data-simplebar="true">
+			
+			<%- include("synadmin/sidebar-header") %>
+			<%- //include("synadmin/menu") %>
+
+		</div>
+		<!--end sidebar wrapper -->
+		
+		<%- include("synadmin/header") %>
+
+        <!--start page wrapper -->
+		<div class="page-wrapper">
+			<div class="page-content">
+				<%- body %>
+			</div>
+		</div>
+		<!--end page wrapper -->
+
+		<%- include("synadmin/footer") %>
+	</div>
+	<!--end wrapper-->
+
+	<%- //include("synadmin/switcher") %>
+	<%- include("synadmin/script") %>
+
+</body>
+
+<!-- Mirrored from codervent.com/synadmin/demo/vertical/error-blank-page.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 11 Jul 2021 07:29:08 GMT -->
+</html>

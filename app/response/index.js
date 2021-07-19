@@ -1,0 +1,1 @@
+module.exports = includeResponse(__filename, __dirname);

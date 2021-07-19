@@ -1,0 +1,1 @@
+module.exports = require('./../../includeConfig')(__filename, __dirname);
