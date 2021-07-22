@@ -3,6 +3,7 @@
 /**
  * Set Utils Public
  */
+require('dotenv').config();
 require('./../starter').public();
  
  

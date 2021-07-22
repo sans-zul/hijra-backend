@@ -1,3 +1,4 @@
+require('dotenv').config();
 module.exports = {
   base_url : process.env.BASE_URL || 'http://localhost:4000',
   app_name : process.env.APP_NAME || 'Sanari',

@@ -1,5 +1,6 @@
+require('dotenv').config();
 module.exports = {
-    base_url : process.env.BASE_URL || "http://localhost:4000",
+    base_url : process.env.BASE_URL,
     app_name : process.env.APP_NAME || 'Sanari',
     team : process.env.TEAM || 'SANJARI',
     db : {
